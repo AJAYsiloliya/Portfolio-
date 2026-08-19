@@ -46,8 +46,8 @@ const nameInput = document.querySelector("#username");
 const emailInput = document.querySelector("#Email");
 
 
-Btn2.addEventListener("click", (e) => {
-  e.preventDefault();
+Btn2.addEventListener("click", ()=> {
+  
   if (nameInput.value === "" || emailInput.value === "") {
     alert("please fill in all the fields")
   }
