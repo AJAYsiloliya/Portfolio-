@@ -38,24 +38,3 @@ inputs.forEach(input => {
 });
 
 
-const Btn2 = document.querySelector(".btn2");
-
-const alert2 = document.querySelector("#custom-alert");
-
-const nameInput = document.querySelector("#username");
-const emailInput = document.querySelector("#Email");
-
-
-Btn2.addEventListener("click", ()=> {
-  
-  if (nameInput.value === "" || emailInput.value === "") {
-    alert("please fill in all the fields")
-  }
-  else {
-    alert2.classList.add("show");
-    document.querySelector("form").reset();
-  }
-
-})
-
-
